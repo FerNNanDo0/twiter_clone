@@ -1,0 +1,19 @@
+{
+    "name": "projetos/miniframework",
+    "version": "1.0.0",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "Fernando Oliveira",
+            "email": "fefebda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
